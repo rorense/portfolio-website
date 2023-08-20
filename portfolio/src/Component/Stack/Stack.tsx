@@ -1,10 +1,8 @@
 import React from 'react';
 import "./Stack.css";
 
-function Stack() {
+export const Stack: React.FC = () => {
   return (
     <div className='stack'>Stack</div>
   )
 }
-
-export default Stack
