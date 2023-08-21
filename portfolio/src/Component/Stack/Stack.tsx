@@ -3,7 +3,7 @@ import "./Stack.css";
 
 export const Stack: React.FC = () => {
   return (
-    <div className='stack'>
+    <div className='stack' id="stack">
       <h2>My Tech Stack</h2>
       <div className="icons">
         <img src="/icons/html.png" title="HTML" alt="" />

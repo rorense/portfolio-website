@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.css";
+import { HashLink as Link } from 'react-router-hash-link';
 
 interface Props {
   text: string;
@@ -15,10 +16,10 @@ export const Header: React.FC<Props> = ({text}) => {
       </div>
       {/* Right side component */}
       <div className="right">
-        <h3>About</h3>
-        <h3>Stack</h3>
-        <h3>Projects</h3>
-        <h3>Contact</h3>
+        <Link className="link" to="#about">About</Link>
+        <Link className="link" to="#stack">Stack</Link>
+        <Link className="link" to="#projects">Projects</Link>
+        <Link className="link" to="#contact">Contact</Link>
       </div>
     </div>
   )

@@ -7,9 +7,9 @@ export const About: React.FC = () => {
       <div className="brief">
         <span>Hi, I am Ryan, i am a junior developer with emphasis on efficiency and design</span>
       </div>
-      <div className="content">
+      <div className="content" id="about">
         <div className="photo">
-          <img src="/ryan_photo.JPG" alt="That's me!" />
+          <img src="/ryan_photo.JPG" alt="That's me!"/>
         </div>
         <div className="about_me">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eos alias deserunt incidunt ad? 

@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.right > h3 {
+.right > .link {
 
     background-image: linear-gradient(black, black);
     background-size: 0% 1px;
@@ -28,8 +28,10 @@
     background-position: left bottom;
     transition: background-size 800ms ease;    
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
-.right > h3:hover {
+.right > .link:hover {
     background-size: 100% 1px;
 }

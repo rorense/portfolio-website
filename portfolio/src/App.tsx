@@ -12,7 +12,13 @@ export const App: React.FC = () => {
       <Header ok={ true } text='Hi'/>
       <About />
       <Stack />
-      <Projects />
+      <span>My Work so far...</span>
+      <Projects 
+        title='E-Commerice Website' 
+        img='https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY
+        2h8NHx8cmFuZG9tfGVufDB8fDB8fHww&w=1000&q=80' 
+        desc='This is a ecommerce website'
+        link=''/>
       <Contact />
       <Footer />
     </div>
