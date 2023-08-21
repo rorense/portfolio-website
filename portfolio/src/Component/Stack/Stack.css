@@ -1,0 +1,28 @@
+.icons {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.icons > img {
+    width: 200px;
+    cursor: pointer;
+    transition: transform .2s
+}
+
+.icons > img:hover {
+    transform: scale(1.2);
+}
+
+.stack > h2 {
+    font-size: x-large;
+    text-align: center;
+}
+
+.stack {
+    justify-content: center;
+    margin: 25px 80px;
+}
