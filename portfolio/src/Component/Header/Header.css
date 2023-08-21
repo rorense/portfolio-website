@@ -9,9 +9,27 @@
     font-size: large;
 }
 
+.left > h2 {
+    cursor: pointer;
+}
+
 .right {
     display: flex;
     flex-direction: row;
     gap: 30px;
     align-items: center;
+}
+
+.right > h3 {
+
+    background-image: linear-gradient(black, black);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 800ms ease;    
+    cursor: pointer;
+}
+
+.right > h3:hover {
+    background-size: 100% 1px;
 }

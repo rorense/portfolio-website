@@ -1,18 +1,37 @@
 .about {
-    margin: 80px 80px;
+    margin: 80px 80px 80px 120px;
 }
 
 .brief {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     text-transform: lowercase;
     font-size: 100px;
     margin-bottom: 80px;
+    margin-left: 20px;
+}
+  
+.brief > span {
+    background-image: linear-gradient(black, black);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 1000ms ease;
 }
 
+.brief > span:hover {
+    background-size: 100% 3px;
+}
+
+
 .photo > img {
-    width: 600px;
+    width: 500px;
     border-radius: 50%;
+    transition: transform .2s;
+}
+
+.photo > img:hover {
+    transform: scale(1.1)
 }
 
 .content {

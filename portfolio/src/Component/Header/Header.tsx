@@ -11,7 +11,7 @@ export const Header: React.FC<Props> = ({text}) => {
     <div className='header'>
       {/* Left side component */}
       <div className="left">
-        <h2>RYAN DEV</h2>
+        <h2>ryan.dev</h2>
       </div>
       {/* Right side component */}
       <div className="right">
