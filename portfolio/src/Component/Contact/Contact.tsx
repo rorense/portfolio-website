@@ -5,7 +5,7 @@ export const Contact: React.FC = () => {
   return (
     <div className={contact.contact} id="contact">
       <div className={contact.contact_title}>
-        <h1>Contact</h1>
+        <h1 className={contact.h1}>Contact</h1>
       </div>
       <div className={contact.contact_body}>
         <span>Let's Build Together...</span>

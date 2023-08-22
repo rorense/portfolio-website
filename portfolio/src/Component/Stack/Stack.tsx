@@ -6,7 +6,7 @@ export const Stack: React.FC = () => {
     <div className={stack.stack} id="stack">
       <hr />
       <div className={stack.title}>
-        <h1>My Tech Stack</h1>
+        <h1 className={stack.h1}>My Tech Stack</h1>
       </div>
       <div className={stack.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Et praesentium enim excepturi officia eveniet consequatur autem fugit, 

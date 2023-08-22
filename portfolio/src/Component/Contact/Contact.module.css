@@ -54,3 +54,18 @@
     color: #fff;
     background-color: black;
 }
+
+.h1 {
+    background-image: linear-gradient(black, black);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 800ms ease;    
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.h1:hover {
+    background-size: 100% 3px;
+}
