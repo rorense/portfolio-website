@@ -1,0 +1,27 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    background-color: rgb(49, 49, 49);
+    padding: 30px 30px 30px 30px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.footer > .left {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.footer > .right {
+}
+
+.icons > .icon {
+    color: white;
+    cursor: pointer;
+}
