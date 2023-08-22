@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
         <div className="icons">
           <Link className="icon" to="https://github.com/rorense" target='_blank'><GitHubIcon /></Link>
           <Link className="icon" to="https://www.linkedin.com/in/ryan-orense/" target='_blank'><LinkedInIcon /></Link>
-          <EmailIcon className='icon' />
+          <Link to="mailto:rkorense@gmail.com" className='icon'><EmailIcon  /></Link>
           <DescriptionIcon className='icon'/>
         </div>
       </div>

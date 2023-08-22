@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Projects.css"
-import { Link } from "react-router-dom";
 import { Card } from '../Project_Card/Card';
 
 export const Projects: React.FC = () => {
