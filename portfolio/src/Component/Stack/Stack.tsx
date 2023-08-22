@@ -4,11 +4,13 @@ import stack from "./Stack.module.css";
 export const Stack: React.FC = () => {
   return (
     <div className={stack.stack} id="stack">
-      <p>My Tech Stack</p>
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <div className={stack.title}>
+        <h1>My Tech Stack</h1>
+      </div>
+      <div className={stack.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Et praesentium enim excepturi officia eveniet consequatur autem fugit, 
         corrupti dolorum nostrum unde! Maiores ut vero minima repellat corporis 
-        impedit totam voluptatem?</span>
+        impedit totam voluptatem?</div>
       <div className={stack.icons}>
         <img src="/icons/html.png" title="HTML" alt="" />
         <img src="/icons/css.png" title='CSS' alt="" />

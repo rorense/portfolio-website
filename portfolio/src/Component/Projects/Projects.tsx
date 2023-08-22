@@ -6,7 +6,7 @@ export const Projects: React.FC = () => {
   return (
     <div className={projects.projects} id="projects">
       <div className={projects.project_heading}>
-        <span>My Work so far</span>
+        <h1>My Work so far</h1>
       </div>
 
       <Card 

@@ -7,7 +7,10 @@ export const About: React.FC = () => {
       <div className={about.brief}>
         <span>Hi, I am Ryan, i am a junior developer with emphasis on efficiency and design</span>
       </div>
-      <div className={about.content} id="about">
+      <div className={about.title} id="about">
+        <h1>About Me</h1>
+      </div>
+      <div className={about.content}>
         <div className={about.photo}>
           <img src="/photo/ryan_photo.JPG" alt="That's me!"/>
         </div>

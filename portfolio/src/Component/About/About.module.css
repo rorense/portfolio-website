@@ -1,5 +1,10 @@
 .about {
-    margin: 80px 80px 150px 120px;
+    margin: 80px 80px 250px 120px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
 }
 
 .brief {
@@ -7,7 +12,7 @@
     justify-content: center;
     text-transform: lowercase;
     font-size: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 250px;
     margin-left: 20px;
 }
   

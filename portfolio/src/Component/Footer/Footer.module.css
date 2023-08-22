@@ -21,7 +21,11 @@
 .icon {
     color: white;
     cursor: pointer;
-    
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
 }
 
 .black_logo {

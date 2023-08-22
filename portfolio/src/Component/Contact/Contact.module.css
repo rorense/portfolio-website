@@ -2,7 +2,7 @@
       display: flex;
       flex-direction: column;
       gap: 40px;
-      margin: 100px 60px;
+      margin-bottom: 200px;
 }
 
 .contact_title {
@@ -11,7 +11,7 @@
 }
 
 .contact_title {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: lighter;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .contact_body > span {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .contact_btn {
