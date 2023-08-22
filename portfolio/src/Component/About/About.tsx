@@ -9,9 +9,9 @@ export const About: React.FC = () => {
       </div>
       <div className="content" id="about">
         <div className="photo">
-          <img src="/ryan_photo.JPG" alt="That's me!"/>
+          <img src="/photo/ryan_photo.JPG" alt="That's me!"/>
         </div>
-        <div className="about_me">
+        <div className="about_me font">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eos alias deserunt incidunt ad? 
             Commodi exercitationem itaque ipsum inventore atque facilis a necessitatibus. Voluptatibus culpa, 
             illum explicabo facilis nihil debitis?</p>

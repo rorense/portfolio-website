@@ -14,11 +14,8 @@
     color: white;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     margin-left: 50px;
-}
-
-.footer > .right {
 }
 
 .icons > .icon {
@@ -26,7 +23,9 @@
     cursor: pointer;
 }
 
-.footer > .left > img {
+.black_logo {
     width: 300px;
+    height: 100%;
+    cursor: pointer;
 }
 

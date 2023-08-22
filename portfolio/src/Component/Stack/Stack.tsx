@@ -4,7 +4,7 @@ import "./Stack.css";
 export const Stack: React.FC = () => {
   return (
     <div className='stack' id="stack">
-      <h2>My Tech Stack</h2>
+      <p>My Tech Stack</p>
       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Et praesentium enim excepturi officia eveniet consequatur autem fugit, 
         corrupti dolorum nostrum unde! Maiores ut vero minima repellat corporis 

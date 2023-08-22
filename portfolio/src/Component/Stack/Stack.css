@@ -17,10 +17,11 @@
     transform: scale(1.2);
 }
 
-.stack > h2 {
-    font-size: xx-large;
+.stack > p {
+    font-size: 20px;
     text-align: center;
     margin-bottom: 100px;
+    justify-content: center;
 }
 
 .stack {

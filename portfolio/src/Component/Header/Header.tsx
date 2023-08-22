@@ -4,10 +4,10 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 export const Header: React.FC = () => {
   return (
-    <div className='header'>
+    <div className='header' id="header">
       {/* Left side component */}
       <div className="left">
-        <img src="/ryan_dev_logo.png" alt="" />
+        <img src="/photo/ryan_dev_logo.png" alt="" />
       </div>
       {/* Right side component */}
       <div className="right">
