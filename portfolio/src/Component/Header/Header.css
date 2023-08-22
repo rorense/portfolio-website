@@ -35,3 +35,8 @@
 .header > .right > .link:hover {
     background-size: 100% 1px;
 }
+
+.header > .left > img {
+    width: 400px;
+    align-items: center;
+}

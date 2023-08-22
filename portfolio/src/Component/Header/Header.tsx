@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
     <div className='header'>
       {/* Left side component */}
       <div className="left">
-        <h2>ryan.dev</h2>
+        <img src="/ryan_dev_logo.png" alt="" />
       </div>
       {/* Right side component */}
       <div className="right">

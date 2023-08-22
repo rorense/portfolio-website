@@ -3,7 +3,7 @@
     bottom: 0;
     right: 0;
     height: 150px;
-    background-color: rgb(49, 49, 49);
+    background-color: rgba(17,17,17,255);
     padding: 30px 30px 30px 30px;
     justify-content: space-between;
     align-items: center;
@@ -25,3 +25,8 @@
     color: white !important;
     cursor: pointer;
 }
+
+.footer > .left > img {
+    width: 300px;
+}
+

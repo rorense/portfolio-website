@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Projects.css"
-import { Card } from '../Project_Card/Card';
+import { Card } from '../Card/Card';
 
 export const Projects: React.FC = () => {
   return (

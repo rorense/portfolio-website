@@ -7,11 +7,11 @@ export const Contact: React.FC = () => {
       <div className="contact_title">
         <h1>Contact</h1>
       </div>
-      <div className="contactbody">
-        <span>Let's Build Together</span>
+      <div className="contact_body">
+        <span>Let's Build Together...</span>
       </div>
       <div className="contact_btn">
-        <a href='mailto:rkorense@gmail.com'><button>Contact Me</button></a>
+        <a href='mailto:rkorense@gmail.com' className='button'>Contact Me</a>
       </div>
     </div>
   )
