@@ -7,6 +7,7 @@ export const About: React.FC = () => {
       <div className={about.brief}>
         <span>Hi, I am Ryan, i am a junior developer with emphasis on efficiency and design</span>
       </div>
+      <hr />
       <div className={about.title} id="about">
         <h1>About Me</h1>
       </div>

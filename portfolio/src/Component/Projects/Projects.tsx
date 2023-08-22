@@ -5,6 +5,7 @@ import { Card } from '../Card/Card';
 export const Projects: React.FC = () => {
   return (
     <div className={projects.projects} id="projects">
+      <hr />
       <div className={projects.project_heading}>
         <h1>My Work so far</h1>
       </div>
@@ -19,6 +20,7 @@ export const Projects: React.FC = () => {
         title='E-Commerice Site' 
         desc="This is a website ghghghghhghghghghghghghghghhghg" 
         link=''
+        gitlink=''
         key={ 1 }/>
 
       <Card 
@@ -31,8 +33,10 @@ export const Projects: React.FC = () => {
         title='Facebook Clone'
         desc='This is a facebook clone'
         link=''
+        gitlink=''
         key={ 2 }
       />
+      <hr />
     </div>
   )
 }

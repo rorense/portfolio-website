@@ -3,3 +3,14 @@
   * {
     font-family: 'Roboto Slab', serif;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    width: 80%;
+  }

@@ -34,12 +34,27 @@
     position: absolute;
 }
 
-.card_left > .img1 {
+.img1 {
     z-index: 1;
 }
 
-.card_right > .link{
+.link{
     text-decoration: none;
     color: black;
     font-size: 30px;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 100px;
+}
+
+.git {
+    font-size: 80px;
 }

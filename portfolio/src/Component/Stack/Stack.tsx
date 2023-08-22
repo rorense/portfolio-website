@@ -4,6 +4,7 @@ import stack from "./Stack.module.css";
 export const Stack: React.FC = () => {
   return (
     <div className={stack.stack} id="stack">
+      <hr />
       <div className={stack.title}>
         <h1>My Tech Stack</h1>
       </div>
