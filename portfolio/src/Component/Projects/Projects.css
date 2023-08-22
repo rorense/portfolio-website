@@ -1,16 +1,6 @@
-.projects {
+.project_heading > span {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 200px;
-}
-
-.left > img {
-    width: 700px;
-}
-
-.projects > .right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 80px;
+    margin-bottom: 80px;
 }

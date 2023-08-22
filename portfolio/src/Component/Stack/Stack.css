@@ -26,4 +26,9 @@
 .stack {
     justify-content: center;
     margin: 25px 80px;
+    margin-bottom: 100px;
+}
+
+.stack > span {
+    margin-bottom: 90px;
 }

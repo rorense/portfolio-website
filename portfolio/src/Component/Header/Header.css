@@ -4,23 +4,23 @@
     margin: 20px 20px;
 }
 
-.left {
+.header > .left {
     font-weight: 500;
     font-size: large;
 }
 
-.left > h2 {
+.header > .left > h2 {
     cursor: pointer;
 }
 
-.right {
+.header > .right {
     display: flex;
     flex-direction: row;
     gap: 30px;
     align-items: center;
 }
 
-.right > .link {
+.header > .right > .link {
 
     background-image: linear-gradient(black, black);
     background-size: 0% 1px;
@@ -32,6 +32,6 @@
     color: black;
 }
 
-.right > .link:hover {
+.header > .right > .link:hover {
     background-size: 100% 1px;
 }

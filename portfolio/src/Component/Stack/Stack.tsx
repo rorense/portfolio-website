@@ -5,6 +5,10 @@ export const Stack: React.FC = () => {
   return (
     <div className='stack' id="stack">
       <h2>My Tech Stack</h2>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Et praesentium enim excepturi officia eveniet consequatur autem fugit, 
+        corrupti dolorum nostrum unde! Maiores ut vero minima repellat corporis 
+        impedit totam voluptatem?</span>
       <div className="icons">
         <img src="/icons/html.png" title="HTML" alt="" />
         <img src="/icons/css.png" title='CSS' alt="" />
