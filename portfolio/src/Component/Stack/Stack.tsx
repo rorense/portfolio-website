@@ -20,6 +20,7 @@ export const Stack: React.FC = () => {
         <img src="/icons/redux.png" title='Redux' alt="" />
         <img src="/icons/mongodb" title='MongoDB' alt="" />
       </div>
+      <hr />
     </div>
   )
 }

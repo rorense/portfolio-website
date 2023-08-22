@@ -2,12 +2,7 @@ import React from 'react';
 import "./Header.css";
 import { HashLink as Link } from 'react-router-hash-link';
 
-interface Props {
-  text: string;
-  ok: boolean;
-}
-
-export const Header: React.FC<Props> = ({text}) => {
+export const Header: React.FC = () => {
   return (
     <div className='header'>
       {/* Left side component */}
