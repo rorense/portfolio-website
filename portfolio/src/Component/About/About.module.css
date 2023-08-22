@@ -1,9 +1,8 @@
 .about {
     margin: 80px 80px 150px 120px;
-    flex-wrap: wrap;
 }
 
-.about > .brief {
+.brief {
     display: inline-block;
     justify-content: center;
     text-transform: lowercase;
@@ -12,7 +11,7 @@
     margin-left: 20px;
 }
   
-.about > .brief > span {
+.brief > span {
     background-image: linear-gradient(black, black);
     background-size: 0% 3px;
     background-repeat: no-repeat;
@@ -20,10 +19,9 @@
     transition: background-size 1000ms ease;
 }
 
-.about > .brief > span:hover {
+.brief > span:hover {
     background-size: 100% 3px;
 }
-
 
 .photo > img {
     width: 500px;
@@ -31,7 +29,7 @@
     transition: transform .2s;
 }
 
-.content > .photo > img:hover {
+.photo > img:hover {
     transform: scale(1.1)
 }
 

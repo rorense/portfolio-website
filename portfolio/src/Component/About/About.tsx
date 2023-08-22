@@ -1,17 +1,17 @@
 import React from 'react';
-import "./About.css";
+import about from "./About.module.css";
 
 export const About: React.FC = () => {
   return (
-    <div className='about'>
-      <div className="brief">
+    <div className={about.about}>
+      <div className={about.brief}>
         <span>Hi, I am Ryan, i am a junior developer with emphasis on efficiency and design</span>
       </div>
-      <div className="content" id="about">
-        <div className="photo">
+      <div className={about.content} id="about">
+        <div className={about.photo}>
           <img src="/photo/ryan_photo.JPG" alt="That's me!"/>
         </div>
-        <div className="about_me font">
+        <div className={about.about_me}>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eos alias deserunt incidunt ad? 
             Commodi exercitationem itaque ipsum inventore atque facilis a necessitatibus. Voluptatibus culpa, 
             illum explicabo facilis nihil debitis?</p>

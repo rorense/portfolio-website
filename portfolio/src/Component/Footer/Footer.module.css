@@ -5,12 +5,12 @@
     height: 150px;
     background-color: rgba(17,17,17,255);
     padding: 30px 30px 30px 30px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     display: flex;
 }
 
-.footer > .left {
+.left {
     color: white;
     display: flex;
     align-items: center;
@@ -18,9 +18,10 @@
     margin-left: 50px;
 }
 
-.icons > .icon {
-    color: white !important;
+.icon {
+    color: white;
     cursor: pointer;
+    
 }
 
 .black_logo {

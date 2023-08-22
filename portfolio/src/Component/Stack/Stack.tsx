@@ -1,15 +1,15 @@
 import React from 'react';
-import "./Stack.css";
+import stack from "./Stack.module.css";
 
 export const Stack: React.FC = () => {
   return (
-    <div className='stack' id="stack">
+    <div className={stack.stack} id="stack">
       <p>My Tech Stack</p>
       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Et praesentium enim excepturi officia eveniet consequatur autem fugit, 
         corrupti dolorum nostrum unde! Maiores ut vero minima repellat corporis 
         impedit totam voluptatem?</span>
-      <div className="icons">
+      <div className={stack.icons}>
         <img src="/icons/html.png" title="HTML" alt="" />
         <img src="/icons/css.png" title='CSS' alt="" />
         <img src="/icons/javascript.png" title='JavaScript' alt="" />

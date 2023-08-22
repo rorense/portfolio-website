@@ -9,7 +9,7 @@
     box-shadow: 12px 12px 2px 1px grey;
 }
 
-.card > .card_right {
+.card_right {
     display: flex;
     flex-direction: column;
 }
