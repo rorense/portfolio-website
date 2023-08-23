@@ -23,7 +23,7 @@ export const Card: React.FC<Props> = ({ img1, img2, title, desc, link, gitlink }
                 <h1>{ title }</h1>
                 <span>{ desc }</span>
                 <br />
-                <Link className={card.link} to={ link }>Click here for demo</Link>
+                <Link className={card.link} to={ link } target='_blank'>Click here for demo</Link>
                 <Link className={card.icon} to={gitlink} target='_blank'><GitHubIcon className={card.git} /></Link>
             </div>
         </div>
