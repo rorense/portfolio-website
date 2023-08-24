@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import DescriptionIcon from '@mui/icons-material/Description';
 import { HashLink as Link } from 'react-router-hash-link';
-import exampleCV from './CV.pdf';
+import exampleCV from '../CV/CV.pdf';
 
 export const Footer: React.FC = () => {
   return (

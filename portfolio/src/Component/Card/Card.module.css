@@ -2,12 +2,22 @@
     display: flex;
     margin: 50px 70px;
     padding: 50px;
-    height: 500px;
+    min-height: 500px;
     justify-content: space-around;
     gap: 50px;
     border: solid 2px black;
     border-radius: 20px;
     box-shadow: 12px 12px 2px 1px grey;
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        display: block;
+    }
+
+    .card_left > img  {
+        width: 300px;
+    }
 }
 
 .card_right {

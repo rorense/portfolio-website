@@ -18,6 +18,14 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 1000px) {
+    .right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .link {
     background-image: linear-gradient(black, black);
     background-size: 0% 1px;
@@ -37,4 +45,8 @@
     width: 400px;
     align-items: center;
     cursor: pointer;
+}
+
+.icon {
+    color: black;
 }

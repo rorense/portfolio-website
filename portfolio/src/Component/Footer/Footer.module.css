@@ -26,6 +26,15 @@
 .icons {
     display: flex;
     gap: 40px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
 
 .black_logo {

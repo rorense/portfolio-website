@@ -46,7 +46,13 @@
     background-size: 100% 3px;
 }
 
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
 .photo > img {
+    display: flex;
     width: 500px;
     border-radius: 50%;
     transition: transform .2s;
@@ -61,6 +67,13 @@
     justify-content: center;
     gap: 30px;
     align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        display: block;
+        justify-content: center;
+    }
 }
 
 .about_me > p {

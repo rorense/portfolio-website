@@ -3,6 +3,8 @@ import header from "./Header.module.css";
 import { HashLink as Link } from 'react-router-hash-link';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import DescriptionIcon from '@mui/icons-material/Description';
+import exampleCV from '../CV/CV.pdf';
 
 export const Header: React.FC = () => {
   return (
@@ -17,6 +19,7 @@ export const Header: React.FC = () => {
         <Link className={header.link} to="#contact">Contact</Link>
         <Link className={header.link} to="https://github.com/rorense" target='_blank'><GitHubIcon /></Link>
         <Link className={header.link} to="https://www.linkedin.com/in/ryan-orense/" target='_blank'><LinkedInIcon /></Link>
+        <Link className={header.link} to={ exampleCV }  download="Ryan Orense CV" target="_blank" rel="noreferrer"><DescriptionIcon /></Link>
       </div>
     </div>
   )
