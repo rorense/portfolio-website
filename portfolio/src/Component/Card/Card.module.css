@@ -13,6 +13,8 @@
 @media screen and (max-width: 1000px) {
     .card {
         display: block;
+        text-align: center;
+        justify-content: center;
     }
 
     .card_left > img  {
@@ -23,6 +25,7 @@
 .card_right {
     display: flex;
     flex-direction: column;
+    max-width: 300px;
 }
 
 .card_left {
@@ -62,9 +65,9 @@
     display: flex;
     justify-content: center;
     color: black;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .git {
-    font-size: 80px;
+    font-size: 70px;
 }

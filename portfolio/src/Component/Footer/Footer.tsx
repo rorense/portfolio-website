@@ -16,10 +16,10 @@ export const Footer: React.FC = () => {
       </div>
       <div className={footer.right}>
         <div className={footer.icons}>
-          <Link className={footer.icon} to="https://github.com/rorense" target='_blank'><GitHubIcon /></Link>
-          <Link className={footer.icon} to="https://www.linkedin.com/in/ryan-orense/" target='_blank'><LinkedInIcon /></Link>
-          <Link className={footer.icon} to="mailto:rkorense@gmail.com" ><EmailIcon  /></Link>
-          <Link className={footer.icon} to={ exampleCV }  download="Ryan Orense CV" target="_blank" rel="noreferrer"><DescriptionIcon /></Link>
+          <Link className={footer.icon} to="https://github.com/rorense" target='_blank' title='GitHub'><GitHubIcon /></Link>
+          <Link className={footer.icon} to="https://www.linkedin.com/in/ryan-orense/" target='_blank' title='LinkedIn'><LinkedInIcon /></Link>
+          <Link className={footer.icon} to="mailto:rkorense@gmail.com" title='Email'><EmailIcon  /></Link>
+          <Link className={footer.icon} to={ exampleCV }  download="Ryan Orense CV" target="_blank" rel="noreferrer" title='Download CV'><DescriptionIcon /></Link>
         </div>
       </div>
     </div>

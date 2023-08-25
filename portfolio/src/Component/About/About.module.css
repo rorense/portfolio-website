@@ -1,5 +1,5 @@
 .about {
-    margin: 80px 80px 250px 120px;
+    margin: 80px 80px 150px 120px;
 }
 
 .title {
@@ -29,7 +29,7 @@
     justify-content: center;
     text-transform: lowercase;
     font-size: 80px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
     margin-left: 20px;
     text-align: center;
 }
@@ -73,6 +73,7 @@
     .content {
         display: block;
         justify-content: center;
+        text-align: center;
     }
 }
 

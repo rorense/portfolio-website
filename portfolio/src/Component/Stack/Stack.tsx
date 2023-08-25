@@ -8,10 +8,11 @@ export const Stack: React.FC = () => {
       <div className={stack.title}>
         <h1 className={stack.h1}>My Tech Stack</h1>
       </div>
-      <div className={stack.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Et praesentium enim excepturi officia eveniet consequatur autem fugit, 
-        corrupti dolorum nostrum unde! Maiores ut vero minima repellat corporis 
-        impedit totam voluptatem?</div>
+      <div className={stack.desc}>
+        Apart from the formal education I have listed on my CV, I have taken a number of 
+        online courses such as <b>Codecademy</b>, <b>Odin Project</b>, and <b>Udemy</b>. 
+        I am always trying to upskill and learn different technologies.
+      </div>
       <div className={stack.icons}>
         <img src="/icons/html.png" title="HTML" alt="" />
         <img src="/icons/css.png" title='CSS' alt="" />
