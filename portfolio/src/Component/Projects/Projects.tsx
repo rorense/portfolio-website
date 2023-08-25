@@ -11,8 +11,8 @@ export const Projects: React.FC = () => {
       </div>
 
       <Card 
-        img1='' 
-        img2=''
+        img1='/screenshot/commerce1.png' 
+        img2='/screenshot/commerce2.png'
         title='E-Commerice Site' 
         desc="This is a website ghghghghhghghghghghghghghghhghg" 
         link='https://ryandevshop.tech/'
@@ -30,8 +30,8 @@ export const Projects: React.FC = () => {
       />
 
       <Card 
-        img1=''
-        img2=''
+        img1='/screenshot/jamming1.png'
+        img2='/screenshot/jamming2.png'
         title='Spotify Jamming'
         desc='This is a facebook clone'
         link=''
