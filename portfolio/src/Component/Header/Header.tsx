@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
         <Link className={header.link} to="#contact">Contact</Link>
         <Link className={header.link} to="https://github.com/rorense" target='_blank' title='GitHub'><GitHubIcon /></Link>
         <Link className={header.link} to="https://www.linkedin.com/in/ryan-orense/" target='_blank' title='LinkedIn'><LinkedInIcon /></Link>
-        <Link className={header.link} to={ exampleCV }  download="Ryan Orense CV" target="_blank" rel="noreferrer" title='Download CV'><DescriptionIcon /></Link>
+        <Link className={header.link} to={ exampleCV } target="_blank" rel="noopener noreferrer" title='Open CV'><DescriptionIcon /></Link>
       </div>
     </div>
   )
