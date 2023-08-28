@@ -2,9 +2,9 @@
     display: flex;
     margin: 50px 70px;
     padding: 50px;
-    min-height: 500px;
     justify-content: space-around;
-    gap: 50px;
+    align-content: flex-start;
+    gap: 20px;
     border: solid 2px black;
     border-radius: 20px;
     box-shadow: 12px 12px 2px 1px grey;
@@ -12,26 +12,27 @@
 
 @media screen and (max-width: 1000px) {
     .card {
-        display: block;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .card_left > img  {
-        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 20px;
     }
 }
 
 .card_right {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     max-width: 300px;
+    min-width: 200px;
 }
 
 .card_left {
     width: 900px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .card_left:hover {
@@ -70,4 +71,8 @@
 
 .git {
     font-size: 70px;
+}
+
+.card_right > span {
+    font-size: calc(15px + 0.390625vw);
 }

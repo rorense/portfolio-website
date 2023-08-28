@@ -11,7 +11,7 @@
 }
 
 .contact_title {
-    font-size: 40px;
+    font-size: calc(25px + 0.5vw);
     font-weight: lighter;
 }
 

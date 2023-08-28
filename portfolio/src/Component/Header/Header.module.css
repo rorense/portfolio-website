@@ -14,8 +14,14 @@
     flex-direction: row;
     gap: 30px;
     align-items: center;
-    font-family: 'Roboto Slab, serif';
-    font-size: 20px;
+    font-size: 20px
+}
+
+@media screen and (max-width: 690px) {
+    .right {
+        font-size: 15px;
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -42,7 +48,8 @@
 }
 
 .left > img {
-    width: 400px;
+    width: 90%;
+    /* width: 400px; */
     align-items: center;
     cursor: pointer;
 }

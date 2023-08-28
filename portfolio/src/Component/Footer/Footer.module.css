@@ -33,12 +33,18 @@
     .icons {
         display: flex;
         flex-wrap: wrap;
+        font-size: small;
+        gap: 15px;
     }
     
+    .left {
+        gap: 20px;
+    }
 }
 
 .black_logo {
-    width: 300px;
+    width: 95%;
+    /* width: 300px; */
     height: 100%;
     cursor: pointer;
 }
