@@ -39,15 +39,14 @@
     .icons {
         display: flex;
         flex-wrap: wrap;
-        font-size: small;
-        gap: 15px;
+        gap: 10px;
     }
     
     .left {
         gap: 1px;
         margin-left: 5px;
         display: flex;
-        align-items: left;
+        flex-direction: column;
     }
 }
 
