@@ -15,13 +15,18 @@
 
 @media screen and (max-width:668px) {
     .icons > img {
-        width: 150px;
+        width: 100px;
     }
 
     .icons {
-        gap: 50px;
+        gap: 20px;
     }
-    
+}
+
+@media screen and (max-width: 390px) {
+    .icons > img {
+        width: 95px;
+    }
 }
 
 .icons > img:hover {

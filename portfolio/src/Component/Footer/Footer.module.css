@@ -14,8 +14,14 @@
     color: white;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     margin-left: 50px;
+}
+
+.left > span {
+    font-size: calc(10px + 0.6vw);
+    margin-bottom: 10px;
+
 }
 
 .icon {
@@ -38,12 +44,15 @@
     }
     
     .left {
-        gap: 20px;
+        gap: 1px;
+        margin-left: 5px;
+        display: flex;
+        align-items: left;
     }
 }
 
 .black_logo {
-    width: 95%;
+    width: 80%;
     /* width: 300px; */
     height: 100%;
     cursor: pointer;

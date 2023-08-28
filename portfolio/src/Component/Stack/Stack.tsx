@@ -10,8 +10,8 @@ export const Stack: React.FC = () => {
       </div>
       <div className={stack.desc}>
         Apart from the formal education I have listed on my CV, I have taken a number of 
-        online courses such as <b>Codecademy</b>, <b>Odin Project</b>, and <b>Udemy</b>. 
-        I am always trying to upskill and learn different technologies.
+        online courses such as <b>Codecademy</b>, <b>Odin Project</b>, <b>Coursera</b> and <b>Udemy</b>. 
+        I am always trying to upskill and learn about different technologies.
       </div>
       <div className={stack.icons}>
         <img src="/icons/html.png" title="HTML" alt="" />
