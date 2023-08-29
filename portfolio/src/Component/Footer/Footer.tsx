@@ -7,6 +7,7 @@ import DescriptionIcon from '@mui/icons-material/Description';
 import { HashLink as Link } from 'react-router-hash-link';
 import exampleCV from '../CV/CV.pdf';
 
+// Bottom footer component
 export const Footer: React.FC = () => {
   return (
     <div className={footer.footer}>

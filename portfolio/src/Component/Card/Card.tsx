@@ -3,6 +3,7 @@ import card from "./Card.module.css";
 import { Link } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+// TypeScript interface for card component
 interface Props {
   img1: string;
   img2: string;

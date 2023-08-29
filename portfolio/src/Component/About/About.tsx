@@ -1,6 +1,7 @@
 import React from 'react';
 import about from "./About.module.css";
 
+// The about component
 export const About: React.FC = () => {
   return (
     <div className={about.about}>

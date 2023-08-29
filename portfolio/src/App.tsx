@@ -7,6 +7,7 @@ import { Contact } from './Component/Contact/Contact';
 import { Footer } from './Component/Footer/Footer';
 import "./App.css";
 
+// Main App component
 export const App: React.FC = () => {
   return (
     <div className="App">

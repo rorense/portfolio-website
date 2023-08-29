@@ -1,6 +1,7 @@
 import React from 'react';
 import stack from "./Stack.module.css";
 
+// Tech Stack component
 export const Stack: React.FC = () => {
   return (
     <div className={stack.stack} id="stack">

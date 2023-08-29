@@ -1,19 +1,23 @@
+  /* From Google Fonts */
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap');
 
   * {
     font-family: 'Roboto Slab', serif;
   }
 
+  /* Smooth scrolling behaviour */
   html {
     scroll-behavior: smooth;
   }
 
+  /* horizontal line style */
   hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   }
 
+  /* Fade in animation when page loads */
   .App {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;

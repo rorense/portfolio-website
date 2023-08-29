@@ -1,6 +1,7 @@
 import React from 'react';
 import contact from "./Contact.module.css";
 
+// Contact form component
 export const Contact: React.FC = () => {
   return (
     <div className={contact.contact} id="contact">

@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DescriptionIcon from '@mui/icons-material/Description';
 import exampleCV from '../CV/CV.pdf';
 
+// Header component
 export const Header: React.FC = () => {
   return (
     <div className={header.header} id="header">

@@ -2,6 +2,7 @@ import React from 'react'
 import projects from "./Projects.module.css"
 import { Card } from '../Card/Card';
 
+// Project component
 export const Projects: React.FC = () => {
   return (
     <div className={projects.projects} id="projects">
