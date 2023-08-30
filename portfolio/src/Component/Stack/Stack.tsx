@@ -21,9 +21,11 @@ export const Stack: React.FC = () => {
         <img src="/icons/react.png" title='React' alt="" />
         <img src="/icons/node.png" title='Node' alt="" />
         <img src="/icons/typescript.png" title='TypeScript' alt="" />
+        <img src="/icons/next.png" title='Next JS' alt="" />
         <img src="/icons/firebase.png" title='Firebase' alt="" />
         <img src="/icons/redux.png" title='Redux' alt="" />
-        <img src="/icons/mongodb" title='MongoDB' alt="" />
+        <img src="/icons/mongodb.png" title='MongoDB' alt="" />
+        <img src="/icons/npm.png" title='NPM' alt="" />
       </div>
     </div>
   )
