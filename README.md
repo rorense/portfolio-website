@@ -11,3 +11,4 @@ Created using:
 - TypeScript
 - CSS Modules
 - Flex Box
+- React Hooks
