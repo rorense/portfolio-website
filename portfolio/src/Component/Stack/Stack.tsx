@@ -26,6 +26,7 @@ export const Stack: React.FC = () => {
         <img src="/icons/redux.png" title='Redux' alt="" />
         <img src="/icons/mongodb.png" title='MongoDB' alt="" />
         <img src="/icons/npm.png" title='NPM' alt="" />
+        <img src="/icons/tailwind.png" title='Tailwind CSS' alt="" />
         <img src="/icons/wordpress.png" title='WordPress' alt="" />
       </div>
     </div>
