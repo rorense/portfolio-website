@@ -12,6 +12,16 @@ export const Projects: React.FC = () => {
       </div>
 
       <Card
+        img1="/screenshot/associate1.png"
+        img2="/screenshot/associate2.png"
+        title="Ai Associate"
+        desc="Users can create and write to an articial intelligence model. The associate model can reply to your queries and have a conversation with you. Payment route is also implemented using Stripe API, which allows for a subscription model. Built using Next JS, Prisma, MySQL and Tailwind"
+        link="https://ai-associate-swart.vercel.app/"
+        gitlink="https://github.com/rorense/aicomp"
+        key={1}
+      />
+
+      <Card
         img1="/screenshot/bnb1.png"
         img2="/screenshot/bnb2.png"
         title="Bed and Breakfast Rental Site"
@@ -19,7 +29,7 @@ export const Projects: React.FC = () => {
         Built using Next JS, MongoDB for the database. Other notable technologies include Tailwind CSS, Axios Prisma and NextAuth "
         link="https://bed-breakfast-khaki.vercel.app/"
         gitlink="https://github.com/rorense/bed-breakfast"
-        key={1}
+        key={2}
       />
 
       <Card
@@ -32,18 +42,6 @@ export const Projects: React.FC = () => {
         payments and checkout using Stripe API."
         link="https://ryandevshop.tech/"
         gitlink="https://github.com/rorense/ecommerce"
-        key={2}
-      />
-
-      <Card
-        img1="/screenshot/Rbook1.png"
-        img2="/screenshot/Rbook2.png"
-        title="R Book"
-        desc="This is my version clone of the popular social network site, facebook. Front-end created using React and back-end with
-        Google Firebase. With Firebase, I incorporated both Google Authetication and Database management, as well as hosting. React 
-        Context API for State Management. Users can submit posts and the feed gets updated accordingly."
-        link="https://r-book-e7c62.web.app/"
-        gitlink="https://github.com/rorense/Facebook_Clone"
         key={3}
       />
 
