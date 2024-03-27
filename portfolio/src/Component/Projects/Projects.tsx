@@ -12,13 +12,23 @@ export const Projects: React.FC = () => {
       </div>
 
       <Card
+        img1="/screenshot/note-1.png"
+        img2="/screenshot/note-2.png"
+        title="Scriibe - Note Taking App"
+        desc="A web app where users can create a document, embed images/media, and publish documents on the web. Built using Next JS, Tailwind CSS, Convex database and Clerk"
+        link="https://scriibe-one.vercel.app/"
+        gitlink="https://github.com/rorense/note"
+        key={1}
+      />
+
+      <Card
         img1="/screenshot/associate1.png"
         img2="/screenshot/associate2.png"
         title="Ai Associate"
         desc="Users can create and write to an articial intelligence model. The associate model can reply to your queries and have a conversation with you. Payment route is also implemented using Stripe API, which allows for a subscription model. Built using Next JS, Prisma, MySQL and Tailwind"
         link="https://ai-associate-swart.vercel.app/"
         gitlink="https://github.com/rorense/aicomp"
-        key={1}
+        key={2}
       />
 
       <Card
@@ -29,7 +39,7 @@ export const Projects: React.FC = () => {
         Built using Next JS, MongoDB for the database. Other notable technologies include Tailwind CSS, Axios Prisma and NextAuth "
         link="https://bed-breakfast-khaki.vercel.app/"
         gitlink="https://github.com/rorense/bed-breakfast"
-        key={2}
+        key={3}
       />
 
       <Card
@@ -42,7 +52,7 @@ export const Projects: React.FC = () => {
         payments and checkout using Stripe API."
         link="https://ryandevshop.tech/"
         gitlink="https://github.com/rorense/ecommerce"
-        key={3}
+        key={4}
       />
 
       <Card
@@ -54,7 +64,7 @@ export const Projects: React.FC = () => {
         user information"
         link="https://rorense.github.io/spotify-jamming/"
         gitlink="https://github.com/rorense/spotify-jamming"
-        key={4}
+        key={5}
       />
       <hr />
     </div>
